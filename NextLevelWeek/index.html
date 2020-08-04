@@ -41,7 +41,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body id = "page-landing">
 
     <div id = "container">
         <div class="logo-container">
@@ -49,12 +49,27 @@
             <h2>Sua plataforma de estudos online</h2> <!-- essa tag marca titulos vai até h6 -->
         </div> 
 
+        <img class="hero-image" src="/Assets/images/landing.svg" alt="Plataforma de Estudos">
+
         <!-- <p> essa tag marca paragrafos -->
-        
-        <img src="" alt="Logo"> <!-- Essa tag marca uma imagem e tem atributos especificos -->
-    
-        <button>Estudar</button> <!-- Essa tag marca botões -->
-        <button>Dar Aulas</button>
+        <!-- <img src="" alt="Logo"> Essa tag marca uma imagem e tem atributos especificos -->
+        <!--<button> Essa tag marca botões -->
+
+        <div class="buttons-container">
+            <a class="study" href="/study.html">
+                <img src="/Assets/images/icons/give-classes.svg" alt="Estudar">
+                Estudar
+            </a>
+            <a class="give-classes" href="/give-classes.html">
+                <img src="/Assets/images/icons/study.svg" alt="Dar aulas">
+                Dar aulas
+            </a>
+        </div>
+
+        <p class="total-connections">
+            Total de 200 conexões já realizadas
+            <img src="/Assets/images/icons/purple-heart.svg" alt="Coração roxo">
+        </p>
     </div>
 
 </body>
